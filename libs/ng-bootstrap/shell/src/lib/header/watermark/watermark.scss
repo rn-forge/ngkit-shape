@@ -1,0 +1,21 @@
+.watermark {
+  // position
+  position: absolute;
+  z-index: 9999;
+  overflow: hidden;
+  top: 0.65em;
+  left: 18em;
+  width: 10em;
+
+  // styling
+  text-align: center !important;
+  opacity: 0.5;
+  padding: 0.5rem !important;
+  pointer-events: none;
+
+  &.rotate {
+    top: 1.5em !important;
+    left: -1.5em !important;
+    transform: rotate(-45deg);
+  }
+}

@@ -1,0 +1,40 @@
+# The one hand-authored input kiln reads (kiln ADR-0004). Edit this, then run
+# `kiln apply`. Everything else under .rn-forge/kiln/ is kiln's.
+schema_version = 1
+
+[repository]
+name = "ngkit-shape"
+archetype = "node-lib"
+lifecycle = false
+
+[kiln]
+ref = "feature/v1"
+
+[archetype]
+
+[docs]
+profile = "mkdocs"
+site_dir = ".docs-site"
+external_url = ""
+
+[tasks]
+includes = []
+
+[tasks.extra_refs]
+
+[tasks.command_overrides]
+
+[tasks.audit]
+ignore = []
+
+[ci]
+provider = "github"
+sonar = true
+doctor_full = "default-branch"
+sonar_exclusions = []
+sonar_coverage_exclusions = []
+jobs = []
+
+[ci.hooks]
+setup = []
+docs = []

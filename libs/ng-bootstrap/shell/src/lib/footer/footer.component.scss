@@ -1,0 +1,18 @@
+footer {
+  background-color: var(--footer-bg);
+
+  font-weight: bold;
+
+  border-top: var(--bs-border-width) var(--bs-border-style)
+    var(--bs-border-color);
+
+  nav.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    ul.navbar-nav,
+    rnf-navbar {
+      margin-left: auto;
+    }
+  }
+}

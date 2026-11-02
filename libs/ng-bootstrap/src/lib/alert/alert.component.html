@@ -1,0 +1,37 @@
+<div
+  class="mt-2"
+  [ngClass]="hidden() ? 'd-none' : ''"
+  [rnfHtmlAttributes]="htmlAttributes()">
+  <ngb-alert
+    #ngbAlert
+    [dismissible]="config.dismissible!"
+    [animation]="config.animation!"
+    [type]="type()">
+    <div class="d-flex align-items-center">
+      <h5 class="mb-0">
+        @if (icon()) {
+          <i class="bi bi-{{ icon() }}"></i>
+        }
+        {{ message() }}
+      </h5>
+      @if (showProgress()) {
+        <div
+          class="spinner-border text-{{ type() }} ms-auto"
+          aria-hidden="true"></div>
+      }
+    </div>
+  </ngb-alert>
+
+  @if (showProgress()) {
+    <progress
+      class="visually-hidden"
+      aria-label="progress"
+      [value]="progress()"
+      max="100"></progress>
+    <div class="progress" aria-hidden="true">
+      <div
+        class="progress-bar progress-bar-striped bg-{{ type() }}"
+        [attr.style]="'width: ' + progress() + '%;'"></div>
+    </div>
+  }
+</div>

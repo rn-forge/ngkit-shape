@@ -1,0 +1,19 @@
+svg.bi {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+svg.check {
+  display: none;
+}
+
+ul.dropdown-menu {
+  a.dropdown-item {
+    cursor: pointer;
+
+    &.active > svg.check {
+      display: block !important;
+    }
+  }
+}
