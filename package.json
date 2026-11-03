@@ -47,7 +47,7 @@
     "@nx/plugin": "23.1.0",
     "@nx/storybook": "23.1.0",
     "@nx/web": "23.1.0",
-    "@nx/workspace": "23.1.0",
+    "@nx/workspace": "24.0.2",
     "@playwright/test": "^1.61.1",
     "@schematics/angular": "~22.1.7",
     "@storybook/angular": "^10.5.0",
