@@ -1,0 +1,79 @@
+## uv ##
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+## nx ##
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# compiled output
+dist
+tmp
+out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+.nx/cache
+.nx/workspace-data
+.nx/migrate-runs
+.claude/worktrees
+.claude/settings.local.json
+
+.angular
+
+__screenshots__/
+
+# BEGIN rn-forge kiln
+.rn-forge/kiln/backups/
+.rn-forge/kiln/rendered/
+.rn-forge/kiln/state.lock
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.import_linter_cache/
+.uv-cache/
+.coverage
+.coverage.*
+coverage.xml
+.docs-site/
+# mkdocs's own default output dir, for when someone runs it directly by mistake
+site/
+# END rn-forge kiln

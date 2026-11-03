@@ -1,0 +1,128 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "analytics": false,
+  "generators": {
+    "@nx/angular:application": {
+      "e2eTestRunner": "none",
+      "linter": "eslint",
+      "style": "scss",
+      "unitTestRunner": "vitest-angular"
+    },
+    "@nx/angular:library": {
+      "linter": "eslint",
+      "unitTestRunner": "vitest-angular"
+    },
+    "@nx/angular:component": {
+      "style": "css"
+    }
+  },
+  "namedInputs": {
+    "default": [
+      "{projectRoot}/**/*",
+      "sharedGlobals"
+    ],
+    "production": [
+      "default",
+      "!{projectRoot}/.eslintrc.json",
+      "!{projectRoot}/eslint.config.mjs"
+    ],
+    "sharedGlobals": []
+  },
+  "release": {
+    "changelog": {
+      "workspaceChangelog": {
+        "createRelease": false
+      }
+    },
+    "projects": [
+      "tag:publishable",
+      "shape"
+    ],
+    "version": {
+      "preVersionCommand": "pnpm exec nx run-many -t build patch-package-exports -p tag:publishable",
+      "adjustSemverBumpsForZeroMajorVersion": false
+    }
+  },
+  "targetDefaults": {
+    "@angular/build:application": {
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "production",
+        "^production"
+      ]
+    },
+    "@angular/build:unit-test": {
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production"
+      ],
+      "options": {
+        "coverage": true,
+        "coverageReporters": [
+          "text-summary",
+          "lcov"
+        ]
+      }
+    },
+    "@nx/angular:unit-test": {
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production"
+      ],
+      "options": {
+        "coverage": true,
+        "coverageReporters": [
+          "text-summary",
+          "lcov"
+        ]
+      }
+    },
+    "@nx/eslint:lint": {
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        "{workspaceRoot}/.eslintrc.json",
+        "{workspaceRoot}/.eslintignore",
+        "{workspaceRoot}/eslint.config.mjs",
+        "{workspaceRoot}/tools/eslint-rules/**/*"
+      ]
+    },
+    "pack": {
+      "dependsOn": [
+        "build"
+      ],
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node tools/ci/resolve-dist-workspace-deps.mjs dist/{projectRoot}/package.json && mkdir -p dist/tarballs && npm pack ./dist/{projectRoot} --pack-destination dist/tarballs",
+        "cwd": "{workspaceRoot}"
+      }
+    },
+    "verify-dist": {
+      "cache": false,
+      "dependsOn": [
+        "pack"
+      ],
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node tools/ci/verify-dist-manifest.mjs dist/{projectRoot}",
+        "cwd": "{workspaceRoot}"
+      }
+    },
+    "@nx/angular:package": {
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "production",
+        "^production"
+      ]
+    }
+  }
+}

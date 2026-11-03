@@ -1,0 +1,405 @@
+{
+  "entries": {
+    ".editorconfig": {
+      "begin_marker": null,
+      "content_hash": "3f9ecf7da46a1c1ba04fcb6816c6785979cdd3a7e8b19f4a898da06877faba3e",
+      "end_marker": null,
+      "kind": "managed",
+      "path": ".editorconfig"
+    },
+    ".github/actions/setup/action.yml": {
+      "begin_marker": null,
+      "content_hash": "da259241ac180803ed38b4128127b1e4262a7ad99295f645798fb6488fbd0f52",
+      "end_marker": null,
+      "kind": "managed",
+      "path": ".github/actions/setup/action.yml"
+    },
+    ".github/dependabot.yml": {
+      "begin_marker": null,
+      "content_hash": "fb4a127895900d33401238d07bbe0bf6e8a1acd5a589d22c1c0973490b6539df",
+      "end_marker": null,
+      "kind": "managed",
+      "path": ".github/dependabot.yml"
+    },
+    ".github/workflows/ci.yml": {
+      "begin_marker": null,
+      "content_hash": "5833fe246d32bf9494aa0e0d5695f30a67892f9205452e204ee819a1e52c2915",
+      "end_marker": null,
+      "kind": "managed",
+      "path": ".github/workflows/ci.yml"
+    },
+    ".github/workflows/release.yml": {
+      "begin_marker": null,
+      "content_hash": "91c34315543e119298729bf846eb90d6c34659b6f8495ad3a4ebcdf74adb1891",
+      "end_marker": null,
+      "kind": "managed",
+      "path": ".github/workflows/release.yml"
+    },
+    ".gitignore#rn-forge kiln": {
+      "begin_marker": "# BEGIN rn-forge kiln",
+      "content_hash": "b90a5ae07e279111f64646635796d99280bf4975337a606cc7593f425e09a865",
+      "end_marker": "# END rn-forge kiln",
+      "kind": "block",
+      "path": ".gitignore"
+    },
+    ".mdformat.toml": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": ".mdformat.toml"
+    },
+    ".nx/workflows/agents.yaml": {
+      "begin_marker": null,
+      "content_hash": "27c985825d0c05c7bdc90dc004161b320c1d5d74d173d94f5ee20d0c0711436f",
+      "end_marker": null,
+      "kind": "managed",
+      "path": ".nx/workflows/agents.yaml"
+    },
+    ".rn-forge/kiln/standard.md": {
+      "begin_marker": null,
+      "content_hash": "f9a2ceef251b65b06cc05ad5ecf93d1acc6d82c513c5d2f5fc5284465cda2bdb",
+      "end_marker": null,
+      "kind": "managed",
+      "path": ".rn-forge/kiln/standard.md"
+    },
+    ".taplo.toml": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": ".taplo.toml"
+    },
+    "CLAUDE.md#rn-forge kiln": {
+      "begin_marker": "<!-- BEGIN rn-forge kiln -->",
+      "content_hash": "0d2ec093294a659df045ffc4ff82aa6c68128d33814403f59885de995c4dfd0a",
+      "end_marker": "<!-- END rn-forge kiln -->",
+      "kind": "block",
+      "path": "CLAUDE.md"
+    },
+    "Taskfile.yml": {
+      "begin_marker": null,
+      "content_hash": "479177c65036b30c8c00eb0d194c1c9846551c6997c26bfd8662813daff0b4bd",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "Taskfile.yml"
+    },
+    "docs/_areas.yml": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/_areas.yml"
+    },
+    "docs/_structure.md": {
+      "begin_marker": null,
+      "content_hash": "e46db4751e223760d74a8ff39132ba11374337bcc6ae6bb254ebca52fa5a8f6d",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "docs/_structure.md"
+    },
+    "docs/adr/_structure.md": {
+      "begin_marker": null,
+      "content_hash": "7d6b4a254e45e6ca9a01a3d98dcc7150335865f2014e5b12c85b2d810f2265db",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "docs/adr/_structure.md"
+    },
+    "docs/adr/index.md": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/adr/index.md"
+    },
+    "docs/architecture/_structure.md": {
+      "begin_marker": null,
+      "content_hash": "ced1ac8ddd9542c1543aa9c295a6553c2e8d25adce6331d3f0f6c96f9e049bc2",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "docs/architecture/_structure.md"
+    },
+    "docs/architecture/index.md": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/architecture/index.md"
+    },
+    "docs/guides/_structure.md": {
+      "begin_marker": null,
+      "content_hash": "e80984b0c02265869e524c05727aecc93909ff34150deae8af1387c5e834defe",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "docs/guides/_structure.md"
+    },
+    "docs/guides/development.md": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/guides/development.md"
+    },
+    "docs/guides/index.md": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/guides/index.md"
+    },
+    "docs/index.md": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/index.md"
+    },
+    "docs/reference/_structure.md": {
+      "begin_marker": null,
+      "content_hash": "e8f1dfc164b5de1ae41de34ec23cd368314362ba6098172b1b704963e8dff147",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "docs/reference/_structure.md"
+    },
+    "docs/reference/index.md": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/reference/index.md"
+    },
+    "docs/releases/_structure.md": {
+      "begin_marker": null,
+      "content_hash": "2daa5bdcf0379a0b34f63e56925961a09d8626cf426f83b52c07bc6356b91722",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "docs/releases/_structure.md"
+    },
+    "docs/releases/index.md": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/releases/index.md"
+    },
+    "docs/runbooks/_structure.md": {
+      "begin_marker": null,
+      "content_hash": "32fd7c357c2d82be6fe939d6c7a5bae4a706de2a28d577b7d4898f0ded1aca73",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "docs/runbooks/_structure.md"
+    },
+    "docs/runbooks/index.md": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/runbooks/index.md"
+    },
+    "docs/runbooks/recovering-from-drift.md": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/runbooks/recovering-from-drift.md"
+    },
+    "docs/specs/_structure.md": {
+      "begin_marker": null,
+      "content_hash": "f6cb20b4390265fb9da9e6687d7d175bd8c2d33dc069cf13933ab9b4643d2630",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "docs/specs/_structure.md"
+    },
+    "docs/specs/epics/index.md": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/specs/epics/index.md"
+    },
+    "docs/specs/ideas/index.md": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/specs/ideas/index.md"
+    },
+    "docs/specs/index.md": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "docs/specs/index.md"
+    },
+    "ngkit-shape.code-workspace": {
+      "begin_marker": null,
+      "content_hash": null,
+      "end_marker": null,
+      "kind": "seeded",
+      "path": "ngkit-shape.code-workspace"
+    },
+    "sonar-project.properties": {
+      "begin_marker": null,
+      "content_hash": "16fe57985a861bb43046044b97c31764c2f59b98c30bf9db8c34814413a5fbac",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "sonar-project.properties"
+    },
+    "tasks/ci.yml": {
+      "begin_marker": null,
+      "content_hash": "6ccb223716dd2ad278df9a5e0c23c5d6edf9463e8eb1bfdfe806c13fb1dbf7e9",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "tasks/ci.yml"
+    },
+    "tasks/docs.yml": {
+      "begin_marker": null,
+      "content_hash": "2b2a0f00f9a7ad55feb4e37cf1eb6ef84a6c90d8c65893633480b9fa01ac7b44",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "tasks/docs.yml"
+    },
+    "tasks/kiln.yml": {
+      "begin_marker": null,
+      "content_hash": "23996c554d05ab0857c4cc4ee2d09f1eacd98d802d6f1efec8cae1ca26fafbf3",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "tasks/kiln.yml"
+    },
+    "tasks/node.yml": {
+      "begin_marker": null,
+      "content_hash": "9387f4f5e4124d5dd378fac034c92d525e31f901ac0e10b42461768538e9a792",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "tasks/node.yml"
+    },
+    "tasks/python.yml": {
+      "begin_marker": null,
+      "content_hash": "c09120467eebae5c9fd06801a921aefee05e37062d045573e8f2599b9a45dc0b",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "tasks/python.yml"
+    },
+    "tasks/quality.yml": {
+      "begin_marker": null,
+      "content_hash": "416cf3c5057ce83942343c5db524fb39b65eedd22167ec4e144bf82ada343256",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "tasks/quality.yml"
+    },
+    "tasks/workspace.yml": {
+      "begin_marker": null,
+      "content_hash": "3924f8a111accaa2b23ee49c190a05c5434117025cb93dfba7e0761f40e7902a",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "tasks/workspace.yml"
+    },
+    "tools/ci/assemble-site.mjs": {
+      "begin_marker": null,
+      "content_hash": "1ceac68e2af594e23366c6cd887471bcec9241f739395cf07f27bfd97db70e5d",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "tools/ci/assemble-site.mjs"
+    },
+    "tools/ci/release-notes.mjs": {
+      "begin_marker": null,
+      "content_hash": "d0fef97f10a9bcfb10a2c7b23ce0cabaccf37591350870769bcd6dab6a3af69a",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "tools/ci/release-notes.mjs"
+    },
+    "tools/ci/resolve-dist-workspace-deps.mjs": {
+      "begin_marker": null,
+      "content_hash": "8875933ce787afdd56efa7f317fc94670c723acc1d7afd5b53860275a935b452",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "tools/ci/resolve-dist-workspace-deps.mjs"
+    },
+    "tools/ci/verify-dist-manifest.mjs": {
+      "begin_marker": null,
+      "content_hash": "2b212e89e2c9429d17b3af0e1064c87552e731a37cda5591ff17bde7eb1b353a",
+      "end_marker": null,
+      "kind": "managed",
+      "path": "tools/ci/verify-dist-manifest.mjs"
+    }
+  },
+  "metadata": {
+    "config_hash": "92e544d2421144f6db5291e3ee41366532b4c945d3bc2b8488acd6017fadfa4c",
+    "config_provenance": {
+      "ci.doctor_full": {
+        "layer": "defaults",
+        "value": "default-branch"
+      },
+      "ci.hooks.docs": {
+        "layer": "defaults",
+        "value": []
+      },
+      "ci.hooks.setup": {
+        "layer": "defaults",
+        "value": []
+      },
+      "ci.jobs": {
+        "layer": "defaults",
+        "value": []
+      },
+      "ci.provider": {
+        "layer": "defaults",
+        "value": "github"
+      },
+      "ci.sonar": {
+        "layer": "defaults",
+        "value": true
+      },
+      "ci.sonar_coverage_exclusions": {
+        "layer": "defaults",
+        "value": []
+      },
+      "ci.sonar_exclusions": {
+        "layer": "defaults",
+        "value": []
+      },
+      "docs.external_url": {
+        "layer": "defaults",
+        "value": ""
+      },
+      "docs.profile": {
+        "layer": "flags",
+        "value": "mkdocs"
+      },
+      "docs.site_dir": {
+        "layer": "defaults",
+        "value": ".docs-site"
+      },
+      "kiln.ref": {
+        "layer": "flags",
+        "value": "feature/v1"
+      },
+      "repository.archetype": {
+        "layer": "flags",
+        "value": "node-lib"
+      },
+      "repository.lifecycle": {
+        "layer": "defaults",
+        "value": false
+      },
+      "repository.name": {
+        "layer": "flags",
+        "value": "ngkit-shape"
+      },
+      "schema_version": {
+        "layer": "defaults",
+        "value": 1
+      },
+      "tasks.audit.ignore": {
+        "layer": "defaults",
+        "value": []
+      },
+      "tasks.includes": {
+        "layer": "defaults",
+        "value": []
+      }
+    },
+    "kiln_version": "0.1.0"
+  },
+  "schema_version": "1"
+}
